@@ -32,7 +32,7 @@ triangle top(clk, reset, nt, xi, yi, busy, po, xo, yo);
 
 //initial $sdf_annotate(`SDF_FILE,top);
 
-initial	$readmemb(INPUT_DATA,  data_base); 
+initial	$readmemb(INPUT_DATA,  data_base);
 initial	$readmemb(EXPECT_DATA,  data_base_expect);
 
 initial begin
