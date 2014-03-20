@@ -16,7 +16,7 @@ output reg [7:0] pixel_dataout;
 
 //==============================================================================
 
-//trigeers ↓
+//triggers ↓
 reg tri_load, tri_STI, tri_buffer, tri_pix, busy_STI, tri_pix_reg, tri_finish;
 reg pi_msb_reg, pi_low_reg, pi_fill_reg;
 reg [15:0] data_saved;
